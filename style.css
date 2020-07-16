@@ -1,0 +1,116 @@
+*{ 
+	margin:0; 
+	padding:0; 
+	box-sizing: border-box; 
+} 
+
+.header{ 
+	width:90%; 
+	height:100px; 
+	margin: auto; 
+} 
+
+.header h1{ 
+	text-align: center; 
+	color: white;
+	font-weight: 600; 
+	text-decoration: underline;
+	font-size: 50px;
+	background: #0456A4; 
+	line-height: 100px;
+} 
+
+.menu{ 
+	width :90%;
+	height:40px; 
+	margin:auto; 
+	background:orange; 
+} 
+
+.maincontent{ 
+	width:90%; 
+	height:300px;
+	margin:auto; 
+	background: pink; 
+	
+}
+
+.content{ 
+	width: 50%; 
+	float: left;
+	height: 300px;
+	background: #C94841; 
+}
+
+.photo{
+	width: 50%; 
+	float: right;
+	height: 300px;
+	background: orange;
+}
+
+.photo img{ 
+	height: 300px;
+	width: 100%; 
+	float: right;
+	
+}
+
+.service{ 
+	width: 90%; 
+	height: 174px;
+	background: purple;
+	margin: auto; 
+}
+
+.box{ 
+	width: 20%; 
+	height: 100px;
+	background: skyblue;
+	margin: 35px 5px 5px; 
+	margin-left: 45px; 
+	float: left;
+}
+
+.menu ul{ 
+	float:right; 
+	list-style:none; 
+}
+
+.menu ul li{ 
+	display: inline-block;
+	line-height: 40px; 
+}
+
+.menu ul li a{ 
+	font-size: 20px;
+	color: #000;
+	text-decoration: none;
+	line-height: 20px;
+	transition: 1s;
+	border: 2px solid transparent;
+	padding: 10px 20px;
+	border-radius: 10px 0px 10px 0px;
+	font-style: 15px; 
+}
+
+.menu ul li a:hover{
+	color: #fff;
+	background: #0456A4;
+	border-radius: 0px 0px 0px 0px;
+}
+
+.icon{
+	width :90%;
+	height:40px; 
+	margin:auto; 
+	background:#5D5D5D;
+}
+
+.icon a {
+	width: 2%; 
+	height: 42px;
+	margin: 10px 5px 5px; 
+	margin-right: 10px;
+	float: right;
+}
